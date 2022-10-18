@@ -1,0 +1,12 @@
+.newsElement{
+    display: grid;
+    grid-template-columns: 29vw 29vw 29vw
+}
+
+@media only screen and (max-width: 1000px) {
+    .newsElement{
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: center;
+    }
+}
